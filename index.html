@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <main>
+        <section class="convert">
+            <p class="p-convert"> <i class="fa-solid fa-arrow-trend-up" style="color: var(--blue700);"></i> CONVERT</p>
+        </section>
+
+        <section class="main-section">
+                <form id="form">
+                    <div class="value">
+                        <label for="main_value" class="text-label">VALOR: </label> <br>
+                        <input type="value" placeholder="0" class="input" id="main_value" value="" required>
+                    </div>
+
+                    <div class="coin">
+                        <label for="options" class="text-label">MOEDA: </label> <br>
+                        <select id="options" name="options" class="input" required>
+                        <option value="" selected>Selecione uma moeda</option>
+                        <option value="dol" class="text-label">Dolar</option>
+                        <option value="euro">Euro</option>
+                        <option value="libra">Libra Esterlina</option>
+                        <option value="iene">Iene Japonês</option>
+                        <option value="suico">Franco Suiço</option>
+                        <option value="australian">Dólar Australiano</option>
+                        </select>
+
+                        <button type="submit" id="btn">Converter para Reais R$</button>
+                    </div>
+                </form>
+
+        </section>
+
+
+    </main>
+
+    <script src="scripts/convert.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</body>
+</html>
